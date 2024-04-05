@@ -6,7 +6,7 @@ public class Adivinha {
         Scanner leitura = new Scanner(System.in);
         Random aleatorio = new Random();
 
-        int numeroAleatorio = aleatorio.nextInt(100);
+        int numeroAleatorio = aleatorio.nextInt(6);
 
         for (int i = 0; i < 5 ; i++) {
             System.out.println("Adivinhe o número que estou pensendo!");
