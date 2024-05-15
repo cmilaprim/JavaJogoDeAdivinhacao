@@ -9,7 +9,7 @@ public class Adivinha {
         int numeroAleatorio = aleatorio.nextInt(6);
 
         for (int i = 0; i < 5 ; i++) {
-            System.out.println("Adivinhe o número que estou pensendo!");
+            System.out.println("Adivinhe o número que estou pensando!");
             int palpite = leitura.nextInt();
 
             if (palpite < numeroAleatorio){
